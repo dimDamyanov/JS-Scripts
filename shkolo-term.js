@@ -25,6 +25,9 @@ for (var tableRow of tableRows) {
 				case "5":
 					termGradeButton.classList.add("blue");
 					break;
+				case "4":
+					termGradeButton.classList.add("yellow-lemon");
+					break;
 				default:
 					termGradeButton.classList.add("red");
 					break;

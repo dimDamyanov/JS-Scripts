@@ -1,6 +1,6 @@
 function avg(grades) {
-    var summer = (accumulator, currentValue) => accumulator + currentValue;
-    return (grades.reduce(summer) / grades.length).toFixed(2);
+    var sum = (accumulator, currentValue) => accumulator + currentValue;
+    return (grades.reduce(sum) / grades.length).toFixed(2);
 }
 
 var tableRows = document.getElementsByClassName("compactTableRow ");
